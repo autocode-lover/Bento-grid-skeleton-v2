@@ -28,6 +28,7 @@
     grid-auto-rows: 200px;
     gap: 1rem;
     grid-auto-flow: dense;
+    /* finds the remaining areas and try to fit the larger ones  */
 
 }
 
@@ -43,6 +44,8 @@ padding: 30px;
     color: white;
 }
 
+/*500px and above*/
+
 @media (min-width:500px){
     .grid-container{
     display: grid;
@@ -51,10 +54,6 @@ padding: 30px;
     grid-auto-rows: 150px;
     gap: 1rem;
 }
-
-
-
-
 
 .box8{
     grid-column: span 2;
